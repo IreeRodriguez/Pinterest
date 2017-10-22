@@ -1,0 +1,125 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+header{
+    margin: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.top{
+    border-bottom: 0.15em solid gray;
+}
+.top>*{
+    display: inline-block;
+    margin: 0.8em;
+    vertical-align: middle;
+}
+.logo{
+    height: 2.5em;
+}
+.searchBar{
+    width: 70%;
+    height: 10%;
+    background-color: lightGray;
+    margin: 0px;
+    border-radius: 0.5em;
+}
+input[type=text], select {
+
+    padding: 12px 20px;
+    margin: 0;
+    background-color: transparent;
+    border: transparent;
+    width: 70%;
+}
+i{
+    color: gray;
+}
+.tags>*{
+    display: inline-block;
+    margin: 0.8em;
+    vertical-align: middle;
+    padding: 0.8em;
+    border-radius: 0.5em;
+    background-color: gold;
+}
+p{
+    margin:0;
+}
+.white{
+    width: 100%;
+    height: 9em;
+}
+
+button{
+    background-color: transparent;
+    border: transparent;
+}
+main{
+        column-count: 4;
+}
+main>*{
+    display: inline-block;
+    margin: 0.5em;
+}
+.imgButton{
+    border-radius: 1.5em;
+    margin-left: 0;
+
+}
+.modals {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px;
+    padding-bottom: 100px;/* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto;
+    background-color: lightgray;
+    margin: 0;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 1.5em;
+    width: 30%;
+    border-radius: 0.5em;
+}
+.close {
+    color: gray;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modalMenu{
+    display: inline-block;
+}
+.modalMenu>*{
+    display: inline-block;
+    margin: 0.5em 0.2em 0.8em;
+    vertical-align: middle;
+    padding: 0.8em;
+    border-radius: 0.5em;
+
+}
+.save{
+    background-color: #B7071B;
+    color: white;
+}
+.save>i{
+    color: white;
+}
